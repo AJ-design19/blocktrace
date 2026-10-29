@@ -1,0 +1,11 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sqlalchemy>=2.0
+pydantic>=2.7
+pydantic-settings>=2.3
+python-jose[cryptography]>=3.3
+bcrypt>=4.1
+python-multipart>=0.0.9
+numpy>=1.26
+psycopg2-binary>=2.9
+web3>=7.0          # optional: only used when CHAIN_RPC_URL is set

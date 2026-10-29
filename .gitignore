@@ -1,0 +1,13 @@
+.env
+*.db
+*.db-wal
+*.db-shm
+__pycache__/
+.pytest_cache/
+.venv/
+node_modules/
+dist/
+contracts/artifacts/
+contracts/cache/
+contracts/deployment.json
+.DS_Store
